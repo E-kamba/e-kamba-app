@@ -1,0 +1,50 @@
+{
+  "expo": {
+    "name": "e-kamba",
+    "slug": "e-kamba",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+
+    "plugins": [
+      [
+        "expo-av",
+        {
+          "microphonePermission": "Allow $(e-kamba) to access your microphone."
+        }
+      ]
+    ],
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "versionCode": 5,
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyB5I57zVgjcqMy3Uvks-VjBe8nz6ZA_rTQ"
+        }
+      },
+      "package": "com.mr_gonga.multstoreApp"
+    },
+
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "0f4c25ad-1220-40ce-8073-24ba68d9279f"
+      }
+    }
+  }
+}
